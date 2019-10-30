@@ -1,0 +1,1 @@
+cost = (global.planetlevel[global.planet,0] * global.planetlevel[global.planet,0] + 10)

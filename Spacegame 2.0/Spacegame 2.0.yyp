@@ -1,0 +1,735 @@
+{
+    "id": "69258a66-fa99-4fd7-ae7f-7ae83b4b4de9",
+    "modelName": "GMProject",
+    "mvc": "1.0",
+    "IsDnDProject": false,
+    "configs": [
+        
+    ],
+    "option_ecma": false,
+    "parentProject": {
+        "id": "0809f212-63a9-477e-b49f-609836bd5ed9",
+        "modelName": "GMProjectParent",
+        "mvc": "1.0",
+        "alteredResources": [
+            {
+                "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
+                "Value": {
+                    "configDeltas": [
+                        "inherited"
+                    ],
+                    "id": "6e1cb208-123c-454c-bb7a-81a44b787a38",
+                    "resourcePath": "options\\main\\options_main.yy",
+                    "resourceType": "GMMainOptions"
+                }
+            }
+        ],
+        "hiddenResources": [
+            
+        ],
+        "projectPath": "${base_project}"
+    },
+    "resources": [
+        {
+            "Key": "00335498-9517-457f-94f3-9b89ac29be03",
+            "Value": {
+                "id": "52ac5b5e-12cd-4b19-8dac-f4de13a194e8",
+                "resourcePath": "objects\\jupiter\\jupiter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "01d2f1e2-8b99-4a74-988a-ddbd9348eced",
+            "Value": {
+                "id": "754b1374-a198-4f88-b756-d252e05a4b27",
+                "resourcePath": "objects\\obj_spacestation\\obj_spacestation.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0322e9af-0ba5-44b9-86d1-18c79e41b282",
+            "Value": {
+                "id": "93afede9-e6ff-453b-bec2-dfd04d593119",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "03844212-da9d-4d0b-bd71-72973e437657",
+            "Value": {
+                "id": "db0ad301-9da2-4612-971c-e2118e434d76",
+                "resourcePath": "views\\03844212-da9d-4d0b-bd71-72973e437657.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "06f5b71a-a2aa-4f18-a789-2794c5f5d2b4",
+            "Value": {
+                "id": "9f246bce-44e0-4cec-b112-b13f8b9f9417",
+                "resourcePath": "fonts\\fontTextBig\\fontTextBig.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "0a92f8a5-de86-4e96-aafc-2c93a720521d",
+            "Value": {
+                "id": "9b06d27c-2138-4abe-8026-7dd4b562aaec",
+                "resourcePath": "sprites\\spr_neptune\\spr_neptune.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0d957a36-6643-46fe-8975-19d67a7d2cc7",
+            "Value": {
+                "id": "45c6bedf-158d-4417-8315-8216ee48f31e",
+                "resourcePath": "objects\\objectWeaponsUpgrades\\objectWeaponsUpgrades.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0e1a9045-40fb-4dc2-b791-b1d9bdfe7b64",
+            "Value": {
+                "id": "075baae7-e15a-4644-9e25-c816fe002cbc",
+                "resourcePath": "objects\\asteroid2\\asteroid2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "13ac74bc-3557-48ce-af0d-1389f13a5dd6",
+            "Value": {
+                "id": "f3719999-b2af-45db-801a-f9c04230d80d",
+                "resourcePath": "views\\13ac74bc-3557-48ce-af0d-1389f13a5dd6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "18aa3fbf-4368-421f-8650-cd9db05ea422",
+            "Value": {
+                "id": "36c25c98-dd24-4421-9e75-e4cd258bbd43",
+                "resourcePath": "views\\18aa3fbf-4368-421f-8650-cd9db05ea422.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1a7002e1-5840-49a9-a7c4-d1cb81673bf5",
+            "Value": {
+                "id": "c490ab4a-9614-454c-838c-7ab8a86cddff",
+                "resourcePath": "objects\\objectHeatUpgrades\\objectHeatUpgrades.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1aa0e1ec-22ea-453e-9249-0daaf40ea9d6",
+            "Value": {
+                "id": "3af5bc11-637d-43b1-98dd-bc368163603d",
+                "resourcePath": "views\\1aa0e1ec-22ea-453e-9249-0daaf40ea9d6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1b61b3dd-2bd4-45f7-9c15-91634ab3d2bf",
+            "Value": {
+                "id": "317cd70c-6df2-4aa1-9a2c-aa69219cfd0e",
+                "resourcePath": "fonts\\fontText\\fontText.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "2135465e-b1fe-4016-a07b-3b05d311b46e",
+            "Value": {
+                "id": "93adeb9c-c893-4630-9d58-79a88a929b47",
+                "resourcePath": "sprites\\spriteColdUpgrades\\spriteColdUpgrades.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "24683929-3c7f-4a17-89a9-396e0f5f4963",
+            "Value": {
+                "id": "e80d58e0-fa70-459c-9d68-fe9eb91c0969",
+                "resourcePath": "objects\\obj_mars\\obj_mars.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2b2065cf-d98d-443d-9b51-00bd69781fdc",
+            "Value": {
+                "id": "a7444d42-df0e-45c0-8eac-3854c094787b",
+                "resourcePath": "views\\2b2065cf-d98d-443d-9b51-00bd69781fdc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2caf32e3-2795-4c5d-b9f9-829ae207bce3",
+            "Value": {
+                "id": "0b29083d-c6ef-4a87-b8b0-fdec6e7c5335",
+                "resourcePath": "views\\2caf32e3-2795-4c5d-b9f9-829ae207bce3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2ddf1062-5994-42af-8624-138b1d5669e3",
+            "Value": {
+                "id": "2d51975f-310d-454e-852d-e5d9114a3d86",
+                "resourcePath": "views\\2ddf1062-5994-42af-8624-138b1d5669e3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3034863e-238a-4851-b47e-4070dff3882a",
+            "Value": {
+                "id": "9e69e897-9fdf-4003-a9ef-d120d1ff1550",
+                "resourcePath": "views\\3034863e-238a-4851-b47e-4070dff3882a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "324f9e2a-cc7e-4307-b446-da7b02a38059",
+            "Value": {
+                "id": "e4e2fd92-3011-43f8-b3a5-9513c38c0e74",
+                "resourcePath": "objects\\asteroid3\\asteroid3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "32764d5d-acd0-40eb-9fdc-2cfeee8362e9",
+            "Value": {
+                "id": "ababab8e-ff33-47f2-9661-7d5e77a33475",
+                "resourcePath": "views\\32764d5d-acd0-40eb-9fdc-2cfeee8362e9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "334a6b70-e655-41ab-b008-4694150c0967",
+            "Value": {
+                "id": "5f87ff93-4121-417c-9de6-36659b77de51",
+                "resourcePath": "objects\\objectShip\\objectShip.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "353bf275-424a-4bcf-a04c-2736a2b7d0e5",
+            "Value": {
+                "id": "faf54c8d-e531-4ea8-aa94-7632240b87fd",
+                "resourcePath": "objects\\objectUpgradeButton2\\objectUpgradeButton2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "36022439-3c38-421b-b758-da9ac2c8e303",
+            "Value": {
+                "id": "dd0f6842-4e31-4dc1-9d6c-965b914848cb",
+                "resourcePath": "objects\\objectLaser\\objectLaser.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "37042b23-e32c-4b30-a383-8f8a04f15d00",
+            "Value": {
+                "id": "4b28d7d0-eb37-4d71-a074-601cc2eccf3c",
+                "resourcePath": "views\\37042b23-e32c-4b30-a383-8f8a04f15d00.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "38b649a5-044f-4062-8af9-07d5c5d65580",
+            "Value": {
+                "id": "e2b8b9c7-090c-432a-bcba-0731d9055b3f",
+                "resourcePath": "objects\\planetupgrade\\planetupgrade.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "415829e2-237d-456a-897a-aeda689c6e07",
+            "Value": {
+                "id": "2932c35b-7273-4c5c-8a7b-8c600fd5b0f0",
+                "resourcePath": "objects\\objectShipUpgradesHub\\objectShipUpgradesHub.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4b06f71d-60f9-447b-bf9a-186bfbb86c1b",
+            "Value": {
+                "id": "c7aff8df-fba8-41ab-9519-8505bfbfeef4",
+                "resourcePath": "sprites\\spriteSustainabilityUpgrades\\spriteSustainabilityUpgrades.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b647a71-cce1-4bb1-af3b-ff49318ef0d3",
+            "Value": {
+                "id": "d867c055-58b6-4f8a-ace2-2f737137afcd",
+                "resourcePath": "sprites\\spr_venus\\spr_venus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4d9746dc-e5fc-476b-ac5b-7d6ca41eec91",
+            "Value": {
+                "id": "537ec20e-1118-4712-843e-2050186d9e48",
+                "resourcePath": "sprites\\spriteShipBase\\spriteShipBase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "504495d5-ddcc-4c9d-a5ab-9179a8b4656c",
+            "Value": {
+                "id": "d640adbe-971c-45f9-858b-040fd95f0d06",
+                "resourcePath": "views\\504495d5-ddcc-4c9d-a5ab-9179a8b4656c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "57e01e21-fcc6-4314-aeff-bd6e43cad8b4",
+            "Value": {
+                "id": "f6561ab6-4d14-4971-a1d6-49fcbc70bc43",
+                "resourcePath": "fonts\\fontHeader\\fontHeader.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "58982926-5454-4550-88e6-473ae1981cc0",
+            "Value": {
+                "id": "25ab4b02-2c7a-4b0c-93a1-e131df33b1a0",
+                "resourcePath": "objects\\levelupstructure2\\levelupstructure2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "58fcae22-3c04-457b-b272-87881a566ec0",
+            "Value": {
+                "id": "550efa52-4ccf-4423-9bba-20bca11cd2f5",
+                "resourcePath": "sprites\\spr_earth\\spr_earth.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f1fd0c8-dca0-4770-a22d-4023e41a47c4",
+            "Value": {
+                "id": "aaf5400d-1505-4300-a0df-dbc172ab122a",
+                "resourcePath": "objects\\asteroid9\\asteroid9.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5f56a6cc-e07b-41b9-a72d-5c7969a99c0e",
+            "Value": {
+                "id": "64ed134a-f29e-491d-9aca-3396139d1084",
+                "resourcePath": "objects\\levelupstructure1\\levelupstructure1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "66ee86b8-d5be-4120-83d6-dd95f7bc4044",
+            "Value": {
+                "id": "4a1f8288-9e84-4d5d-91df-b13a7e3b3f6b",
+                "resourcePath": "fonts\\fontTitleBig\\fontTitleBig.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "68c16827-1cdf-4e4f-8e26-74f201b19c7c",
+            "Value": {
+                "id": "20c7e3c4-121b-47f2-8148-1c6556a5648a",
+                "resourcePath": "objects\\levelupstructure\\levelupstructure.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6ef5c351-1bab-459a-8095-2688c09f5b2d",
+            "Value": {
+                "id": "6f251d78-19da-4ba2-8610-2c8a0538899e",
+                "resourcePath": "sprites\\spr_asteroid\\spr_asteroid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "73316edd-eb01-472a-bff8-cfcad5906fab",
+            "Value": {
+                "id": "fd7af92f-5cbf-4ca1-9a59-b0b5d557c910",
+                "resourcePath": "scripts\\astro\\astro.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "75001865-faa3-4d09-93e1-8cb1a673b7d3",
+            "Value": {
+                "id": "446d0656-5cc3-42fa-b076-c2f725d8e4e7",
+                "resourcePath": "views\\75001865-faa3-4d09-93e1-8cb1a673b7d3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "77029253-be0f-4fe0-9537-582b4c3e36e7",
+            "Value": {
+                "id": "374f3e60-1f8e-48cf-bb97-1460e15d0a1d",
+                "resourcePath": "objects\\asteroid\\asteroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "78f5ce48-6fdb-4a79-b690-4d8f9aedef68",
+            "Value": {
+                "id": "643fcfb9-92d7-48be-975e-b14e80d607cf",
+                "resourcePath": "objects\\objectUpgradeButton3\\objectUpgradeButton3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7f1c9a6f-0a96-405a-adf4-a96f0a34634b",
+            "Value": {
+                "id": "c6fc4162-0142-4e8d-a981-5ef44111233d",
+                "resourcePath": "objects\\asteroid4\\asteroid4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "84b91042-960e-405b-8769-8c2ce08eab8d",
+            "Value": {
+                "id": "672a0d19-3273-46fb-ae9b-ad2a654c0713",
+                "resourcePath": "objects\\objectShipOverview\\objectShipOverview.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "875b9b63-690a-4a0d-9e48-ad9f56fb9cf8",
+            "Value": {
+                "id": "3c7dc7d0-b1ee-49ef-9aa3-67fc20bf4018",
+                "resourcePath": "objects\\objectUpgradeButton1\\objectUpgradeButton1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8ac48d97-2ffc-4e20-b228-1ca51ade0017",
+            "Value": {
+                "id": "477dde4a-9815-447a-a8e7-31bd2fa36678",
+                "resourcePath": "views\\8ac48d97-2ffc-4e20-b228-1ca51ade0017.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "995138e4-9e38-4681-97cf-b6792ef10a32",
+            "Value": {
+                "id": "fb47e456-fdf5-46ea-bbac-90fa6a1bcec4",
+                "resourcePath": "sprites\\sprite15\\sprite15.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9a70dd06-8a26-4e10-a276-36b26a3ba75d",
+            "Value": {
+                "id": "d9a7a346-fa24-4c12-b10f-f6164af9c6f4",
+                "resourcePath": "rooms\\galaxy\\galaxy.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9c945bed-f7a9-42c4-8ed2-555baa2ccb6e",
+            "Value": {
+                "id": "dc845808-e1ba-4c37-b7ed-c4b07ccfc912",
+                "resourcePath": "objects\\objectColdUpgrades\\objectColdUpgrades.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9d31f93f-e689-4a3b-ada6-a418d0799d2e",
+            "Value": {
+                "id": "09baa327-7042-4883-aec9-bf3c9e1faaa5",
+                "resourcePath": "views\\9d31f93f-e689-4a3b-ada6-a418d0799d2e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9f4b0178-f28f-47c7-a8c5-7b107f8e4d66",
+            "Value": {
+                "id": "d8946f6a-851b-49c0-8b08-09d6d87fb19f",
+                "resourcePath": "objects\\obj_button_collect\\obj_button_collect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a38809d9-a757-4f83-a18b-45f7d31899e1",
+            "Value": {
+                "id": "fe51fbc4-c8c0-4fb3-9c7d-f4ffa72d5835",
+                "resourcePath": "sprites\\sprite5\\sprite5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a4068406-1524-417b-b90d-0ccdf5f9e864",
+            "Value": {
+                "id": "b70d767e-4b72-48d6-8dd6-f20166f14e6b",
+                "resourcePath": "objects\\obj_earth\\obj_earth.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a879be66-5118-4ce1-92c3-c8424c71885b",
+            "Value": {
+                "id": "c516a8e8-ae07-41b3-9efc-2871decdc9cc",
+                "resourcePath": "objects\\asteroid8\\asteroid8.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "4dbeeaa6-460b-4d5c-a915-b7efdd05cef7",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa5f5d59-e7ae-47c7-ab70-dde2c456b7f6",
+            "Value": {
+                "id": "dbb8b341-ec4f-44b4-9db6-cedec049b154",
+                "resourcePath": "sprites\\background\\background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aabf1028-4340-4ed8-9730-0f87a3182570",
+            "Value": {
+                "id": "7b717526-f0e7-45e2-aa50-943aea00711b",
+                "resourcePath": "objects\\neptune\\neptune.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b240eccf-9699-429f-a2ad-19a66b76bedb",
+            "Value": {
+                "id": "a83c7598-65a6-4d72-9c6d-7f0a71e1e23d",
+                "resourcePath": "views\\b240eccf-9699-429f-a2ad-19a66b76bedb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b301596e-edb2-4bfa-9391-2e2f9c2f21ab",
+            "Value": {
+                "id": "49949b45-d8bf-4909-bbd5-a08ef975ef85",
+                "resourcePath": "views\\b301596e-edb2-4bfa-9391-2e2f9c2f21ab.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b432f124-b5fb-49ec-b111-17cc25194ff9",
+            "Value": {
+                "id": "49fbc5f7-7fde-4d2c-b948-112348d48217",
+                "resourcePath": "objects\\asteroid5\\asteroid5.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b4451986-1fa8-42c0-88dc-9d83bed363a0",
+            "Value": {
+                "id": "6d59fb8d-88ad-4a37-926f-668aac9b488b",
+                "resourcePath": "objects\\objectUpgradeButton5\\objectUpgradeButton5.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b4e49240-c3a4-4edb-998d-ef005cdda4a1",
+            "Value": {
+                "id": "7283da4e-b15f-43d9-8ec0-8aa4887c9408",
+                "resourcePath": "objects\\asteroid6\\asteroid6.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bd31cc27-dba7-4574-8006-95538e6a4b33",
+            "Value": {
+                "id": "81e451f1-8301-47bb-8a3d-071635fa296f",
+                "resourcePath": "objects\\venus\\venus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "be289c88-108a-4f3e-9b88-0225d3f25189",
+            "Value": {
+                "id": "5671d3a1-7e68-455d-a119-c41082ea7ac9",
+                "resourcePath": "sprites\\spr_sun\\spr_sun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c0023801-a88f-4ecd-bb25-19c81aab4505",
+            "Value": {
+                "id": "7e90034f-efbc-4382-ac6b-460b522dcca4",
+                "resourcePath": "objects\\asteroid7\\asteroid7.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c578ec0e-f954-411f-8300-a22cfd61804d",
+            "Value": {
+                "id": "91c3b0d2-73b8-4134-8994-9b7b6a9ba1c6",
+                "resourcePath": "sprites\\spriteUpgradeHeat\\spriteUpgradeHeat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c6afd898-d5bf-4560-b4f4-9d8d07d63d4d",
+            "Value": {
+                "id": "0fd4f1af-4640-48f7-88ce-ead78445c84a",
+                "resourcePath": "sprites\\spr_spacestation\\spr_spacestation.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c85f4174-8ad3-4f65-854f-0a99ea10d846",
+            "Value": {
+                "id": "55153abc-0cc4-4371-b983-dd255195a7b9",
+                "resourcePath": "objects\\objectRadiationUpgrades\\objectRadiationUpgrades.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cb8e727c-7371-4270-bd65-823c6ec3da0d",
+            "Value": {
+                "id": "02459dab-1092-4ac0-87a6-486c3817421c",
+                "resourcePath": "sprites\\sprite4\\sprite4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Value": {
+                "id": "429fef48-e760-4949-9db8-360affb411f6",
+                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd6157b7-edd5-4a24-81d3-3dfd35abaf6e",
+            "Value": {
+                "id": "7098092d-c9c7-42b1-866e-f7a04bce7c12",
+                "resourcePath": "views\\cd6157b7-edd5-4a24-81d3-3dfd35abaf6e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cd963ecd-4e41-41a7-9fc0-49c9ed6d1a70",
+            "Value": {
+                "id": "371f6790-4678-4d35-a019-5e5f07ef5d22",
+                "resourcePath": "sprites\\sprite8\\sprite8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d2da729c-ec3b-4d0a-aa57-ee21e1d57872",
+            "Value": {
+                "id": "8427dfb7-3564-4377-b826-77d681e788b9",
+                "resourcePath": "fonts\\fontTitle\\fontTitle.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "d44907ca-88f6-42a3-9f1e-e64824fcc186",
+            "Value": {
+                "id": "58371f7b-abdd-445f-8600-1c901fe85c6f",
+                "resourcePath": "sprites\\spriteWeaponsUpgrades\\spriteWeaponsUpgrades.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d9b97b52-2d58-450c-a589-496b082f5129",
+            "Value": {
+                "id": "cf00e69b-cdba-42ba-b763-c9241b46be24",
+                "resourcePath": "sprites\\spriteRadiationUpgrades\\spriteRadiationUpgrades.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d9c1825f-e644-49bd-813f-2eb6f4ac24ce",
+            "Value": {
+                "id": "b52abb3c-f4f6-4cbe-a8d8-fa61748293b5",
+                "resourcePath": "objects\\objectUpgradeButton4\\objectUpgradeButton4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "da0a6b77-4ff2-4b54-b70a-02a3c6a99640",
+            "Value": {
+                "id": "1310fa59-fc8d-431e-a776-2dde32342139",
+                "resourcePath": "scripts\\asteroidbeltgen\\asteroidbeltgen.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e51487d3-a2e8-4357-881e-c5f8556c0157",
+            "Value": {
+                "id": "33824c8c-96c6-430d-bb2f-9fc2004a2ce8",
+                "resourcePath": "sprites\\spr_planetupgrade\\spr_planetupgrade.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e8a2045c-14a3-43f1-a44c-f066b9d6d9cb",
+            "Value": {
+                "id": "d77231ab-2350-427f-bc96-57832416991d",
+                "resourcePath": "views\\e8a2045c-14a3-43f1-a44c-f066b9d6d9cb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ef816a7f-396c-4d4f-ad5e-5b35f4ec958d",
+            "Value": {
+                "id": "57ce1ee0-906a-4a24-9e6a-711cc4119114",
+                "resourcePath": "objects\\pirateconsole\\pirateconsole.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f142fa7c-11ca-4a13-ad16-d3b566245438",
+            "Value": {
+                "id": "db722c53-2fea-41b4-b60b-a2cbeb7f85f6",
+                "resourcePath": "objects\\objectSustainabilityUpgrades\\objectSustainabilityUpgrades.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f1eeddf2-551a-4458-ad10-ac03c525ac7e",
+            "Value": {
+                "id": "34eaf67f-d5bb-452d-882f-5926b3673a5b",
+                "resourcePath": "objects\\sun\\sun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "fe2bca90-acce-46df-a699-960432fea57a",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4a9e710-756b-4ee1-8a36-0950c77d552e",
+            "Value": {
+                "id": "5190a09a-6f93-4141-87ce-d2d4fa3719ad",
+                "resourcePath": "sprites\\spr_jupiter\\spr_jupiter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fe8e4d22-7651-416d-aaba-890522e67aa4",
+            "Value": {
+                "id": "5b74c5f3-a238-4760-9c10-0212e54ffc04",
+                "resourcePath": "objects\\console\\console.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ffb24205-bb7b-405a-962d-7b62a8cc7be2",
+            "Value": {
+                "id": "01300363-ce68-43e4-8c44-7cf783885257",
+                "resourcePath": "objects\\asteroid1\\asteroid1.yy",
+                "resourceType": "GMObject"
+            }
+        }
+    ],
+    "script_order": [
+        "da0a6b77-4ff2-4b54-b70a-02a3c6a99640",
+        "73316edd-eb01-472a-bff8-cfcad5906fab"
+    ],
+    "tutorial": ""
+}
