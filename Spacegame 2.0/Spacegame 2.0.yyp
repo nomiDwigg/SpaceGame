@@ -143,14 +143,6 @@
             }
         },
         {
-            "Key": "1b464380-668f-4574-b9cf-16860019d825",
-            "Value": {
-                "id": "d648b9ec-36aa-4c80-b6f6-8750552f512c",
-                "resourcePath": "sprites\\spritePirateBanner\\spritePirateBanner.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1b61b3dd-2bd4-45f7-9c15-91634ab3d2bf",
             "Value": {
                 "id": "317cd70c-6df2-4aa1-9a2c-aa69219cfd0e",
@@ -287,6 +279,22 @@
             }
         },
         {
+            "Key": "417936c3-b436-4840-a07c-234dc8040995",
+            "Value": {
+                "id": "9e770df4-8337-4578-9918-0e648ce3b622",
+                "resourcePath": "sprites\\spritePirateBanner\\spritePirateBanner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4461ddb4-9132-421d-a4c2-e98fe48bb860",
+            "Value": {
+                "id": "d36ea04b-6753-4e18-8025-c5476971ac59",
+                "resourcePath": "views\\4461ddb4-9132-421d-a4c2-e98fe48bb860.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4b06f71d-60f9-447b-bf9a-186bfbb86c1b",
             "Value": {
                 "id": "c7aff8df-fba8-41ab-9519-8505bfbfeef4",
@@ -340,6 +348,14 @@
                 "id": "550efa52-4ccf-4423-9bba-20bca11cd2f5",
                 "resourcePath": "sprites\\spr_earth\\spr_earth.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "59e35a3c-fb9a-4547-bdb9-e9a1cd0b7692",
+            "Value": {
+                "id": "7bded50c-bb9e-4928-8a71-a454c6a4252a",
+                "resourcePath": "views\\59e35a3c-fb9a-4547-bdb9-e9a1cd0b7692.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

@@ -21,3 +21,10 @@ global.asteroidangle = 0
 global.asteroidspeed = 0
 test = 0
 global.sprite = 0
+
+global.planetNames = array_create(5);
+global.planetNames[0] = "Naomi Centauri 2";
+global.planetNames[1] = "Kate Epsilon 12";
+global.planetNames[2] = "Ekaterina Omega 7";
+global.planetNames[3] = "Matt Beta 9";
+global.planetNames[4] = "Caroline Delta 4";

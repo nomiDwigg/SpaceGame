@@ -6,7 +6,7 @@ instance_create_layer((global.possiblePlanets[global.randomPlanetSpawn].x + (cos
 					  (global.possiblePlanets[global.randomPlanetSpawn].y + (sin(angle) * 600)),
 					  "Instances", objectPirate);
 
-instance_create_layer((viewEndX - 310), (viewBeginY + 10), "popups", objectPirateBanner);
+instance_create_layer((viewEndX - 304), (viewBeginY + 4), "popups", objectPirateBanner);
 alarm[1] = 300;
 
 alarm[0] = timeBetweenPirateSpawn;
