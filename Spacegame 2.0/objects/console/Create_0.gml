@@ -1,16 +1,6 @@
 global.planet = 0
-global.money = 0
 global.timer = 0
-global.gold = 0
-global.carbon = 0
-global.titanium = 0
-global.silicon = 0
-global.iron = 0
-global.carbonmax = 10
-global.titaniummax = 10
-global.siliconmax = 10
-global.ironmax = 10
-global.goldmax = 10
+
 for (z = 0; z < 5; z++;)
 {
 	global.resource[z] = 0
