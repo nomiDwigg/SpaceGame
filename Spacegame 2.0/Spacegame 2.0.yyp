@@ -135,6 +135,22 @@
             }
         },
         {
+            "Key": "1b2fb0f9-bbbe-4e68-8b22-36f9fa0bef52",
+            "Value": {
+                "id": "f1005391-e22f-4bf2-9c52-fd09dafb26e9",
+                "resourcePath": "sprites\\spritePirate\\spritePirate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1b464380-668f-4574-b9cf-16860019d825",
+            "Value": {
+                "id": "d648b9ec-36aa-4c80-b6f6-8750552f512c",
+                "resourcePath": "sprites\\spritePirateBanner\\spritePirateBanner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1b61b3dd-2bd4-45f7-9c15-91634ab3d2bf",
             "Value": {
                 "id": "317cd70c-6df2-4aa1-9a2c-aa69219cfd0e",
@@ -164,6 +180,14 @@
                 "id": "2c080322-5a5d-467f-b7d7-8be79007a0aa",
                 "resourcePath": "sprites\\spritecold\\spritecold.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "28bfc000-54a5-4424-8ab9-e79311996700",
+            "Value": {
+                "id": "0e035b84-81bc-44f7-aca5-b0c85ea0bbe7",
+                "resourcePath": "objects\\objectPirateBanner\\objectPirateBanner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -700,6 +724,14 @@
                 "id": "33824c8c-96c6-430d-bb2f-9fc2004a2ce8",
                 "resourcePath": "sprites\\spr_planetupgrade\\spr_planetupgrade.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e774aea5-c7c2-409e-951a-7d8d65cc8266",
+            "Value": {
+                "id": "cd23bac5-8fc8-459e-8398-3bf3e1e48dd4",
+                "resourcePath": "objects\\objectPirate\\objectPirate.yy",
+                "resourceType": "GMObject"
             }
         },
         {
