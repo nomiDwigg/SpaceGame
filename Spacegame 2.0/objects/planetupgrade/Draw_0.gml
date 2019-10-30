@@ -12,7 +12,7 @@ draw_text(planetupgrade.x + 450,planetupgrade.y+260,global.income[global.planet]
 
 if global.planet == 0
 {
-	draw_text(planetupgrade.x + 120,planetupgrade.y+100,"Noami Centauri 2")
+	draw_text(planetupgrade.x + 120,planetupgrade.y+100,"Naomi Centauri 2")
 	draw_text(planetupgrade.x + 120,planetupgrade.y+190,"Gold:")
 	draw_text(planetupgrade.x + 120,planetupgrade.y+260,"Gold/s:")
 	draw_text(planetupgrade.x + 450,planetupgrade.y+190, global.ore[0])

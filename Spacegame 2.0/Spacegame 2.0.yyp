@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "02154ff8-66d2-46dd-978a-ae895b9a6490",
+            "Value": {
+                "id": "6a036f2a-35b0-489f-98d9-5d67c4707b4e",
+                "resourcePath": "sprites\\spriteheat\\spriteheat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0322e9af-0ba5-44b9-86d1-18c79e41b282",
             "Value": {
                 "id": "93afede9-e6ff-453b-bec2-dfd04d593119",
@@ -148,6 +156,14 @@
                 "id": "e80d58e0-fa70-459c-9d68-fe9eb91c0969",
                 "resourcePath": "objects\\obj_mars\\obj_mars.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "26493a31-d6f1-4b08-b797-78ff7cabd7ad",
+            "Value": {
+                "id": "2c080322-5a5d-467f-b7d7-8be79007a0aa",
+                "resourcePath": "sprites\\spritecold\\spritecold.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -383,6 +399,14 @@
             }
         },
         {
+            "Key": "8498075a-790d-4740-a31d-a892d0d711b1",
+            "Value": {
+                "id": "8ace94ba-8863-442d-ac41-3efc8a6bf9b1",
+                "resourcePath": "sprites\\spriteweapons\\spriteweapons.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "84b91042-960e-405b-8769-8c2ce08eab8d",
             "Value": {
                 "id": "672a0d19-3273-46fb-ae9b-ad2a654c0713",
@@ -404,6 +428,14 @@
                 "id": "477dde4a-9815-447a-a8e7-31bd2fa36678",
                 "resourcePath": "views\\8ac48d97-2ffc-4e20-b228-1ca51ade0017.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "94c0f2b3-f9d8-4f0d-8a07-ab22c2e2b1a0",
+            "Value": {
+                "id": "3b5262ad-2527-42e2-a334-042769fa6bc0",
+                "resourcePath": "sprites\\spritesustainability\\spritesustainability.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -611,6 +643,14 @@
             "Value": {
                 "id": "371f6790-4678-4d35-a019-5e5f07ef5d22",
                 "resourcePath": "sprites\\sprite8\\sprite8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d1703f49-f374-437e-9e04-b0434ed82b5c",
+            "Value": {
+                "id": "761a135d-6c26-4f1b-8f73-dce4261d117a",
+                "resourcePath": "sprites\\spriteradiation\\spriteradiation.yy",
                 "resourceType": "GMSprite"
             }
         },

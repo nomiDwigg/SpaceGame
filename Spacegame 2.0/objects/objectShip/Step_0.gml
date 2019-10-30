@@ -22,7 +22,7 @@ else
 }
 if mouse_check_button_pressed(mb_left) && global.pause = 0
 {
-	instance_create_depth(objectShip.x,objectShip.y,0,objectLaser)
+	instance_create_depth(objectShip.x, objectShip.y,objectShip.depth + 10,objectLaser)
 }
 if mouse_check_button_released(mb_left)
 {
