@@ -13,11 +13,11 @@ instance_create_layer(objectShipUpgradesHub.x + 625, objectShipUpgradesHub.y + 3
 instance_create_layer(objectShipUpgradesHub.x + 625, objectShipUpgradesHub.y + 450, "buttons", objectUpgradeButton4);
 instance_create_layer(objectShipUpgradesHub.x + 625, objectShipUpgradesHub.y + 550, "buttons", objectUpgradeButton5);
 
-global.goldCount = 0;  // 0
-global.ironCount = 0;  // 1
-global.titaniumCount = 0;  // 2
-global.siliconCount = 0;  // 3
-global.carbonCount = 0;  // 4
+//global.goldCount = 0;  // 0
+//global.ironCount = 0;  // 1
+//global.titaniumCount = 0;  // 2
+//global.siliconCount = 0;  // 3
+//global.carbonCount = 0;  // 4
 
 global.heatResources = array_create(5);
 global.coldResources = array_create(5);
