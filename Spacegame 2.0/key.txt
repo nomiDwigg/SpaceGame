@@ -1,0 +1,20 @@
+global.ore = array that holds the ammonut of each resource per planet
+[0] = Gold
+[1] = Carbon
+[2] = Titanium
+[3] = Silicon
+[4] = Iron
+
+
+global.planetlevel = array that stores the value of each planet component
+[0] = Operations
+[1] = defence
+[2] = capacity
+[3]/[4] = income/resource per second
+[5] = been discovered   1 = yes, 0 = no
+[6] = sheild level
+
+
+global.resource = array that holds the ammount of resources the player has
+
+

@@ -49,6 +49,13 @@ else if (global.heatResistanceLevel == 4 )
 	global.heatResources[0] = 30;
 	global.heatResources[2] = 20;
 }
+else if (global.heatResistanceLevel == 5 )
+{
+	global.heatResources[4] = 60;
+	global.heatResources[3] = 60;
+	global.heatResources[0] = 40;
+	global.heatResources[2] = 30;
+}
 
 
 
@@ -90,6 +97,13 @@ else if (global.coldResistanceLevel == 4 )
 	global.coldResources[1] = 30;
 	global.coldResources[2] = 20;
 }
+else if (global.coldResistanceLevel == 5 )
+{
+	global.coldResources[4] = 60;
+	global.coldResources[3] = 60;
+	global.coldResources[1] = 40;
+	global.coldResources[2] = 30;
+}
 
 
 
@@ -127,6 +141,12 @@ else if (global.radiationResistanceLevel == 4 )
 	global.radiationResources[4] = 50;
 	global.radiationResources[3] = 40;
 }
+else if (global.radiationResistanceLevel == 5 )
+{
+	global.radiationResources[2] = 60;
+	global.radiationResources[4] = 60;
+	global.radiationResources[3] = 50;
+}
 
 
 
@@ -161,6 +181,12 @@ else if (global.weaponsLevel == 4 )
 	global.weaponsResources[1] = 50;
 	global.weaponsResources[2] = 50;
 	global.weaponsResources[3] = 40;
+}
+else if (global.weaponsLevel == 5 )
+{
+	global.weaponsResources[1] = 60;
+	global.weaponsResources[2] = 60;
+	global.weaponsResources[3] = 50;
 }
 
 
@@ -205,4 +231,12 @@ else if (global.sustainabilityLevel == 4 )
 	global.sustainabilityResources[2] = 50;
 	global.sustainabilityResources[3] = 50;
 	global.sustainabilityResources[4] = 50;
+}
+else if (global.sustainabilityLevel == 5 )
+{
+	global.sustainabilityResources[0] = 60;
+	global.sustainabilityResources[1] = 60;
+	global.sustainabilityResources[2] = 60;
+	global.sustainabilityResources[3] = 60;
+	global.sustainabilityResources[4] = 60;
 }

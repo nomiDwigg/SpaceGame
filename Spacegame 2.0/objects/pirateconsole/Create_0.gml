@@ -1,2 +1,3 @@
-timer = 0
-rand = 0
+angle = 0;
+randomise();
+alarm[0] = 3600;

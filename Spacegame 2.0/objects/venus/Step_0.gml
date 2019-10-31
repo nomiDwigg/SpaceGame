@@ -14,8 +14,8 @@ if (i == 60)
 if (global.pause == 0)
 {
 	animationProgress += animationSpeed;
-	angle = angle + 0.0005;
-	venus.x = sun.x + (cos(angle) * 1200);
-	venus.y = sun.y + (sin(angle) * 1200);
+	angle = angle + 0.005;
+	venus.x = sun.x + (cos(angle) * 300);
+	venus.y = sun.y + (sin(angle) * 300);
 }
 image_angle = lerp(initialAngle, finalAngle, animationProgress);

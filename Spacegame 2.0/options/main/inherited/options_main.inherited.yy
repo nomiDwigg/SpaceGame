@@ -1,7 +1,4 @@
 1.0.0←ed6a955d-5826-4f98-a450-10b414266c27←ed6a955d-5826-4f98-a450-10b414266c27|{
-    "option_window_colour": {
-        "Value": 4278190080
-    },
     "option_gameguid": "99ac04b7-30bd-49ae-a4df-ef7f4d911903",
     "option_game_speed": 60
 }←1225f6b0-ac20-43bd-a82e-be73fa0b6f4f|{
