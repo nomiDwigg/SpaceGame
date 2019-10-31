@@ -1,3 +1,4 @@
+
 global.planet = 0
 global.timer = 0
 
@@ -16,6 +17,8 @@ for (a = 0; a < 10; a++;)
 		global.planetlevel[a,b] = 0
 	}
 }
+
+
 global.pause = 0
 global.asteroidangle = 0
 global.asteroidspeed = 0

@@ -3,12 +3,14 @@ draw_set_font(font0)
 draw_set_color(c_black)
 
 draw_text(planetupgrade.x + 120,planetupgrade.y+330,"Operations:")
-draw_text(planetupgrade.x + 120,planetupgrade.y+400,"Robots:")
+draw_text(planetupgrade.x + 120,planetupgrade.y+400,"Defence:")
 draw_text(planetupgrade.x + 120,planetupgrade.y+470,"Capacity:")
 draw_text(planetupgrade.x + 450,planetupgrade.y+330,global.planetlevel[global.planet,0])
-draw_text(planetupgrade.x + 450,planetupgrade.y+400,global.planetlevel[global.planet,1])
+draw_text(planetupgrade.x + 450,planetupgrade.y+400, global.planetlevel[global.planet,1])
 draw_text(planetupgrade.x + 450,planetupgrade.y+470,(global.planetlevel[global.planet,2] * 10 + 10))
 draw_text(planetupgrade.x + 450,planetupgrade.y+260,global.income[global.planet])
+
+// draw symbols for what elements are needed for each upgrade
 
 if global.planet == 0
 {

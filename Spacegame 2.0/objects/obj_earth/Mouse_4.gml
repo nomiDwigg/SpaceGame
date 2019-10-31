@@ -1,4 +1,7 @@
-if !(instance_exists(planetupgrade)) && !(instance_exists(objectShipUpgradesHub))
+
+global.planetlevel[0, 5] = 1;
+
+if !(instance_exists(planetupgrade)) && !(instance_exists(objectShipUpgradesHub) && !(instance_exists(objectShipOverview)))
 {
 	global.planet = 0
 	global.pause = 1

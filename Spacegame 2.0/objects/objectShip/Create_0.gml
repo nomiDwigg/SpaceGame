@@ -6,6 +6,7 @@ global.heatResistanceLevel = 0;
 global.coldResistanceLevel = 0;
 global.radiationResistanceLevel = 0;
 global.weaponsLevel = 0;
+global.damage = 0;
 global.sustainabilityLevel = 0;
 global.isPopup = false;
 instance_create_layer(objectShip.x, objectShip.y, "upgrades", objectHeatUpgrades);

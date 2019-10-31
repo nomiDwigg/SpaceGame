@@ -7,11 +7,11 @@
 // silicon = array[3]
 // carbon = array[4]
 
-instance_create_layer(objectShipUpgradesHub.x + 625, objectShipUpgradesHub.y + 150, "buttons", objectUpgradeButton1);
-instance_create_layer(objectShipUpgradesHub.x + 625, objectShipUpgradesHub.y + 250, "buttons", objectUpgradeButton2);
-instance_create_layer(objectShipUpgradesHub.x + 625, objectShipUpgradesHub.y + 350, "buttons", objectUpgradeButton3);
-instance_create_layer(objectShipUpgradesHub.x + 625, objectShipUpgradesHub.y + 450, "buttons", objectUpgradeButton4);
-instance_create_layer(objectShipUpgradesHub.x + 625, objectShipUpgradesHub.y + 550, "buttons", objectUpgradeButton5);
+instance_create_layer(objectShipUpgradesHub.x + 675, objectShipUpgradesHub.y + 200, "buttons", objectUpgradeButton1);
+instance_create_layer(objectShipUpgradesHub.x + 675, objectShipUpgradesHub.y + 300, "buttons", objectUpgradeButton2);
+instance_create_layer(objectShipUpgradesHub.x + 675, objectShipUpgradesHub.y + 400, "buttons", objectUpgradeButton3);
+instance_create_layer(objectShipUpgradesHub.x + 675, objectShipUpgradesHub.y + 500, "buttons", objectUpgradeButton4);
+instance_create_layer(objectShipUpgradesHub.x + 675, objectShipUpgradesHub.y + 600, "buttons", objectUpgradeButton5);
 
 //global.goldCount = 0;  // 0
 //global.ironCount = 0;  // 1

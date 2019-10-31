@@ -1,3 +1,3 @@
 
-viewEndX = (view_get_xport(0) + view_get_wport(0));
-viewBeginY = view_get_yport(0);
+global.viewEndX = (camera_get_view_x(view_camera[0]) + view_get_wport(0));
+global.viewBeginY = (camera_get_view_y(view_camera[0]));
