@@ -28,7 +28,7 @@ else if (planetNum == 4)
 	shipDistance = point_distance(objectShip.x, objectShip.y, neptune.x, neptune.y);
 }
 
-if ((shipDistance < 150) && (shipDistance > -150))
+if ((shipDistance < 300) && (shipDistance > -300))
 {
 	instance_destroy();
 }

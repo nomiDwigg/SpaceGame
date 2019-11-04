@@ -14,6 +14,7 @@ global.planetlevel = array that stores the value of each planet component
 [5] = been discovered   1 = yes, 0 = no
 [6] = sheild
 [7] = sheild level
+[8] = is pirate attacking    1 = yes, 0 = no
 
 
 global.resource = array that holds the ammount of resources the player has

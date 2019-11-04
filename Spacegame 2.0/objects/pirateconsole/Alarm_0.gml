@@ -1,7 +1,9 @@
 //timeBetweenPirateSpawn = irandom_range(3600, 36000);
-timeBetweenPirateSpawn = irandom_range(1800, 7200);
+//timeBetweenPirateSpawn = irandom_range(1800, 7200);
+timeBetweenPirateSpawn = 3600;
 
-global.randomPlanetSpawn = irandom(4);
+//global.randomPlanetSpawn = irandom(4);
+global.randomPlanetSpawn = 0;
 	
 if (global.planetlevel[global.randomPlanetSpawn, 5] == 1)
 {
@@ -47,6 +49,7 @@ if (global.planetlevel[global.randomPlanetSpawn, 5] == 1)
 							 "Instances", objectPirate);
 	}
 	
+	global.planetlevel[global.randomPlanetSpawn, 8] = true;
 	instance_create_layer((global.viewEndX - 352), (global.viewBeginY + 5), "popups", objectPirateBanner);
 	alarm[1] = 300;
 }

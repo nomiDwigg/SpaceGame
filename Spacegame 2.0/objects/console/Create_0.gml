@@ -18,6 +18,10 @@ for (a = 0; a < 10; a++;)
 	}
 }
 
+global.planetlevel[0,0] = 1;
+global.planetlevel[0,1] = 100;
+global.planetlevel[0,6] = 100;
+
 global.pause = 0
 global.asteroidangle = 0
 global.asteroidspeed = 0

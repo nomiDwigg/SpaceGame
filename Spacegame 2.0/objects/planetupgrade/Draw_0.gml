@@ -8,7 +8,7 @@ draw_text(planetupgrade.x + 120,planetupgrade.y+555,"Capacity:")
 draw_text(planetupgrade.x + 450,planetupgrade.y+345,global.planetlevel[global.planet,0])
 draw_text(planetupgrade.x + 450,planetupgrade.y+450, string(defencePercentage) + "%");
 draw_text(planetupgrade.x + 450,planetupgrade.y+555,(global.planetlevel[global.planet,2] * 10 + 10))
-draw_text(planetupgrade.x + 450,planetupgrade.y+265,global.income[global.planet])
+draw_text(planetupgrade.x + 450,planetupgrade.y+265,round(global.income[global.planet]))
 
 // draw symbols for what elements are needed for each upgrade
 

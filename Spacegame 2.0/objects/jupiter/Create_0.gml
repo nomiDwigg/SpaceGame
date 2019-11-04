@@ -8,3 +8,7 @@ animationSpeed = -.0003;
 
 global.planetlevel[2,1] = 100;
 global.planetlevel[2,6] = 100;
+global.planetlevel[2,0] = 1;
+
+coldmultiplier = 0;
+radiationMultiplier = 0;
