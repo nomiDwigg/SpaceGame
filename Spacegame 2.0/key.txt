@@ -17,4 +17,14 @@ global.planetlevel = array that stores the value of each planet component
 
 global.resource = array that holds the ammount of resources the player has
 
+to upgrade operations: Gold & Iron
+to upgrade defence: Carbon & Titanium
+to upgrade capacity: Iron & Silicon & Carbon
+
+upgrade heat = gold & titanium & silicon & carbon 
+upgrade cold = titanium & carbon & silicon & iron
+upgrade radiation = titanium & carbon & silicon
+upgrade weapons = iron & titanuim & silicon
+upgrade sustainability = all
+
 
