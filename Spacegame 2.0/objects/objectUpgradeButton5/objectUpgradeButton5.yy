@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objectUpgradeButton5",
     "eventList": [
-        
+        {
+            "id": "319b6cb6-c933-4478-b7de-16d7a4a956de",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "b4451986-1fa8-42c0-88dc-9d83bed363a0"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
