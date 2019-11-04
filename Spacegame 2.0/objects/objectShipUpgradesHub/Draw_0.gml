@@ -1,4 +1,4 @@
-
+draw_set_font(font0);
 draw_self()
 draw_sprite(spriteheat,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +125)  //125
 draw_sprite(spritecold,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +225)  //225
@@ -14,20 +14,6 @@ draw_sprite_stretched(spriteRadiationUpgrades, global.radiationResistanceLevel, 
 draw_sprite_stretched(spriteWeaponsUpgrades, global.weaponsLevel, (objectShipUpgradesHub.x +55), (objectShipUpgradesHub.y + 130), 450, 450);
 draw_sprite_stretched(spriteSustainabilityUpgrades, global.sustainabilityLevel, (objectShipUpgradesHub.x +55), (objectShipUpgradesHub.y + 130), 450, 450);
 
-
-if (global.heatResistanceLevel < 6)
-{
-	draw_text(objectShipUpgradesHub.x + 650, objectShipUpgradesHub.y + 125, string(global.heatResources));
-	heatWidth = string_width(global.heatResources);
-	draw_sprite_stretched(spriteResources, 0, (objectShipUpgradesHub.x + 650 + heatWidth), (objectShipUpgradesHub.y + 100), 25, 25);
-	draw_sprite_stretched(spriteResources, 1, (objectShipUpgradesHub.x + 650 + heatWidth), (objectShipUpgradesHub.y + 125), 25, 25);
-	draw_sprite_stretched(spriteResources, 2, (objectShipUpgradesHub.x + 650 + heatWidth), (objectShipUpgradesHub.y + 150), 25, 25);
-	draw_sprite_stretched(spriteResources, 3, (objectShipUpgradesHub.x + 650 + heatWidth), (objectShipUpgradesHub.y + 175), 25, 25);
-}
-else
-{
-	objectUpgradeButton1.image_index = 1;
-}
 
 
 
