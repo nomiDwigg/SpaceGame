@@ -7,11 +7,11 @@
 // silicon = array[3]
 // carbon = array[4]
 
-instance_create_layer(objectShipUpgradesHub.x + 675, objectShipUpgradesHub.y + 200, "buttons", objectUpgradeButton1);
-instance_create_layer(objectShipUpgradesHub.x + 675, objectShipUpgradesHub.y + 300, "buttons", objectUpgradeButton2);
-instance_create_layer(objectShipUpgradesHub.x + 675, objectShipUpgradesHub.y + 400, "buttons", objectUpgradeButton3);
-instance_create_layer(objectShipUpgradesHub.x + 675, objectShipUpgradesHub.y + 500, "buttons", objectUpgradeButton4);
-instance_create_layer(objectShipUpgradesHub.x + 675, objectShipUpgradesHub.y + 600, "buttons", objectUpgradeButton5);
+instance_create_layer(objectShipUpgradesHub.x + 600, objectShipUpgradesHub.y + 175, "buttons", objectUpgradeButton1);
+instance_create_layer(objectShipUpgradesHub.x + 600, objectShipUpgradesHub.y + 275, "buttons", objectUpgradeButton2);
+instance_create_layer(objectShipUpgradesHub.x + 600, objectShipUpgradesHub.y + 375, "buttons", objectUpgradeButton3);
+instance_create_layer(objectShipUpgradesHub.x + 600, objectShipUpgradesHub.y + 475, "buttons", objectUpgradeButton4);
+instance_create_layer(objectShipUpgradesHub.x + 600, objectShipUpgradesHub.y + 575, "buttons", objectUpgradeButton5);
 
 //global.goldCount = 0;  // 0
 //global.ironCount = 0;  // 1
@@ -19,17 +19,8 @@ instance_create_layer(objectShipUpgradesHub.x + 675, objectShipUpgradesHub.y + 6
 //global.siliconCount = 0;  // 3
 //global.carbonCount = 0;  // 4
 
-global.heatResources = array_create(5);
-global.coldResources = array_create(5);
-global.radiationResources = array_create(5);
-global.weaponsResources = array_create(5);
-global.sustainabilityResources = array_create(5);
-
-for (i = 0; i < 5; i++)
-{
-	global.heatResources[i] = 0;
-	global.coldResources[i] = 0;
-	global.radiationResources[i] = 0;
-	global.weaponsResources[i] = 0;
-	global.sustainabilityResources[i] = 0;
-}
+global.heatResources = 0;
+global.coldResources = 0;
+global.radiationResources = 0;
+global.weaponsResources = 0;
+global.sustainabilityResources = 0;

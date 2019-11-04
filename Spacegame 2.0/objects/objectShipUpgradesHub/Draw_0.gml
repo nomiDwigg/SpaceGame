@@ -1,16 +1,25 @@
+draw_set_font(font0);
 draw_self()
-draw_sprite(spritecold,0,objectShipUpgradesHub.x +500,objectShipUpgradesHub.y +450)
-draw_sprite(spriteheat,0,objectShipUpgradesHub.x +500,objectShipUpgradesHub.y +550)
-draw_sprite(spritesustainability,0,objectShipUpgradesHub.x +500,objectShipUpgradesHub.y +250)
-draw_sprite(spriteweapons,0,objectShipUpgradesHub.x +500,objectShipUpgradesHub.y +350)
-draw_sprite(spriteradiation,0,objectShipUpgradesHub.x +500,objectShipUpgradesHub.y +150)
+draw_sprite(spriteheat,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +125)  //125
+draw_sprite(spritecold,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +225)  //225
+draw_sprite(spriteradiation,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +325) //325
+draw_sprite(spriteweapons,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +425)  //425
+draw_sprite(spritesustainability,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +525)  //525
 
-draw_sprite_stretched(spriteShipBase, 1, (objectShipUpgradesHub.x +70), (objectShipUpgradesHub.y + 130), 320, 320)
-draw_sprite_stretched(spriteUpgradeHeat, global.heatResistanceLevel, (objectShipUpgradesHub.x +70), (objectShipUpgradesHub.y + 130), 320, 320);
-draw_sprite_stretched(spriteColdUpgrades, global.coldResistanceLevel, (objectShipUpgradesHub.x +70), (objectShipUpgradesHub.y + 130), 320, 320);
-draw_sprite_stretched(spriteRadiationUpgrades, global.radiationResistanceLevel, (objectShipUpgradesHub.x +70), (objectShipUpgradesHub.y + 130), 320, 320);
-draw_sprite_stretched(spriteWeaponsUpgrades, global.weaponsLevel, (objectShipUpgradesHub.x +70), (objectShipUpgradesHub.y + 130), 320, 320);
-draw_sprite_stretched(spriteSustainabilityUpgrades, global.sustainabilityLevel, (objectShipUpgradesHub.x +70), (objectShipUpgradesHub.y + 130), 320, 320);
+
+draw_sprite_stretched(spriteShipBase, 1, (objectShipUpgradesHub.x +55), (objectShipUpgradesHub.y + 130), 450, 450)
+draw_sprite_stretched(spriteUpgradeHeat, global.heatResistanceLevel, (objectShipUpgradesHub.x +55), (objectShipUpgradesHub.y + 130), 450, 450);
+draw_sprite_stretched(spriteColdUpgrades, global.coldResistanceLevel, (objectShipUpgradesHub.x +55), (objectShipUpgradesHub.y + 130), 450, 450);
+draw_sprite_stretched(spriteRadiationUpgrades, global.radiationResistanceLevel, (objectShipUpgradesHub.x +55), (objectShipUpgradesHub.y + 130), 450, 450);
+draw_sprite_stretched(spriteWeaponsUpgrades, global.weaponsLevel, (objectShipUpgradesHub.x +55), (objectShipUpgradesHub.y + 130), 450, 450);
+draw_sprite_stretched(spriteSustainabilityUpgrades, global.sustainabilityLevel, (objectShipUpgradesHub.x +55), (objectShipUpgradesHub.y + 130), 450, 450);
+
+
+
+
+
+
+
 /*draw_set_font(fontText);
 draw_text(objectShipUpgradesHub.x + 360, objectShipUpgradesHub.y + 190, string(global.carbonCount) + " Carbon");
 draw_text(objectShipUpgradesHub.x + 465, objectShipUpgradesHub.y + 90, string(global.siliconCount) + " Silicon"); 

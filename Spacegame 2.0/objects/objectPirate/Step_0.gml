@@ -40,6 +40,9 @@ if (global.pause == 0)
 
 if (pirateHealth <= 0)
 {
+	global.planetlevel[global.randomPlanetSpawn, 8] = false;
+	global.resource[global.randomPlanetSpawn] += round(loot/4);
 	instance_destroy();
 }
+
 

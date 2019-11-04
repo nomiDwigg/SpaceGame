@@ -4,3 +4,10 @@ finalAngle = 360;
 animationProgress = 0;
 animationSpeed = -.003;
 angle = 0
+
+global.planetlevel[1,1] = 100;
+global.planetlevel[1,6] = 100;
+global.planetlevel[1,0] = 1;
+
+heatmultiplier = 0;
+radiationMultiplier = 0;
