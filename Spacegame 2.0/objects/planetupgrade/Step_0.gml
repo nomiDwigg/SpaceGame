@@ -1,2 +1,2 @@
 
-defencePercentage = (global.planetlevel[global.planet,1]/global.planetlevel[global.planet, 6])*100;
+//defencePercentage = (global.planetlevel[global.planet,1]/global.planetlevel[global.planet, 6])*100;
