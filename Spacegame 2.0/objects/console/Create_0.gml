@@ -18,7 +18,6 @@ for (a = 0; a < 10; a++;)
 	}
 }
 
-
 global.pause = 0
 global.asteroidangle = 0
 global.asteroidspeed = 0

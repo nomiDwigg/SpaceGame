@@ -12,7 +12,8 @@ global.planetlevel = array that stores the value of each planet component
 [2] = capacity
 [3]/[4] = income/resource per second
 [5] = been discovered   1 = yes, 0 = no
-[6] = sheild level
+[6] = sheild
+[7] = sheild level
 
 
 global.resource = array that holds the ammount of resources the player has

@@ -1,9 +1,9 @@
 global.resourcemax[3] = (global.planetlevel[3,2] * 10) + 10
-global.income[3] = global.planetlevel[3,0] + (10 * global.planetlevel[3,1])
+global.income[3] = ((global.planetlevel[3,1]/global.planetlevel[3,6])*global.planetlevel[3,0])
 i++
 if (i == 60)
 {	
-	global.ore[3]+= global.income[3]
+	global.ore[3]+= round(global.income[3]);
 	global.planetlevel[2,4] = global.income[3]
 	i = 0
 	if global.ore[3] > global.resourcemax[3]
