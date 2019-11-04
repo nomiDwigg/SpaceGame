@@ -26,7 +26,7 @@ to upgrade capacity: Iron & Silicon & Carbon
 upgrade heat = gold & titanium & silicon & carbon 
 upgrade cold = titanium & carbon & silicon & iron
 upgrade radiation = titanium & carbon & silicon
-upgrade weapons = iron & titanuim & silicon
+upgrade weapons = iron & titanuim & gold
 upgrade sustainability = all
 
 
