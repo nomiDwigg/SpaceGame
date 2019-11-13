@@ -7,4 +7,12 @@ if (instance_exists(objectResourceLost))
 {
 	instance_destroy(objectResourceLost);
 }
+if (instance_exists(objectNotEnoughButton))
+{
+	instance_destroy(objectNotEnoughButton);
+}
+if (instance_exists(objectNotEnough))
+{
+	instance_destroy(objectNotEnough);
+}
 instance_destroy(planetupgrade)

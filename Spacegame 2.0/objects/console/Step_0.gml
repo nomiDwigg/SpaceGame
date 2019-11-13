@@ -52,3 +52,15 @@ if !(instance_exists(asteroid9))
 	asteroidbeltgen()
 	instance_create_layer(0,0,"instances",asteroid9)
 }
+
+for (i = 0; i < 5; i++)
+{
+	if !(global.giftTimer[i] == -1)
+	{
+		global.giftTimer[i] -= 1;
+	}
+}
+	
+	
+	
+	

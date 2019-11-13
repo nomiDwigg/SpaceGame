@@ -11,7 +11,12 @@ if (global.pause == 0)
 {
 	animationProgress += animationSpeed;
 	angle = angle + 0.0005;
-	jupiter.x = sun.x + (cos(angle) * 1200);
-	jupiter.y = sun.y + (sin(angle) * 1200);
+	jupiter.x = sun.x + (cos(angle) * 1400);
+	jupiter.y = sun.y + (sin(angle) * 1400);
 }
 image_angle = lerp(initialAngle, finalAngle, animationProgress);
+
+if ((global.coldResistanceLevel >= global.planetlevel[2,10]) && (global.radiationResistanceLevel >= global.planetlevel[2,11]))
+{
+	canCollect = true;
+}

@@ -2,7 +2,7 @@ i = 0
 initialAngle = 0;
 finalAngle   = 360;
 animationProgress = 0;
-animationSpeed = .0003;
+animationSpeed = .0005;    //0.0003
 angle = 0
 earthIncome = 0;
 
@@ -12,3 +12,4 @@ global.planetlevel[0,0] = 0;
 global.planetlevel[0,8] = 0;
 
 alarm[0] = room_speed;
+canCollect = true;
