@@ -15,3 +15,8 @@ if (global.pause == 0)
 	venus.y = sun.y + (sin(angle) * 300);
 }
 image_angle = lerp(initialAngle, finalAngle, animationProgress);
+
+if ((global.heatResistanceLevel >= global.planetlevel[3,9]) && (global.radiationResistanceLevel >= global.planetlevel[3,11]))
+{
+	canCollect = true;
+}

@@ -12,7 +12,7 @@ if (global.pause == 0)
 {
 	animationProgress += animationSpeed;
 	angle = angle + 0.001;
-	obj_earth.x = sun.x + (cos(angle) * 600);
-	obj_earth.y = sun.y + (sin(angle) * 600);
+	obj_earth.x = sun.x + (cos(angle) * 700);
+	obj_earth.y = sun.y + (sin(angle) * 700);
 }
 image_angle = lerp(initialAngle, finalAngle, animationProgress);
