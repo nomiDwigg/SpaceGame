@@ -20,11 +20,22 @@ else
 {
 	objectShip.speed = 0;
 }
-if mouse_check_button_pressed(mb_left) && global.pause = 0
+
+if ((mouse_button == mb_left) && (global.pause = 0))
 {
-	instance_create_depth(objectShip.x, objectShip.y,objectShip.depth + 10,objectLaser)
+	if (!instance_exists(objectLaser))
+	{
+		instance_create_depth(objectShip.x, objectShip.y,objectShip.depth + 10,objectLaser)
+	}
 }
-if mouse_check_button_released(mb_left)
+
+if (mouse_button == mb_none)
 {
-	instance_destroy(objectLaser)	
+	if (instance_exists(objectLaser))
+	{
+		if (objectLaser.image_index > (objectLaser.image_number - 1))
+		{
+			instance_destroy(objectLaser)	
+		}
+	}
 }

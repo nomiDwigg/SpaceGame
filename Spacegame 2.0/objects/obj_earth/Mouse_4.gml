@@ -1,5 +1,9 @@
 
 global.planetlevel[0, 5] = 1;
+if (global.planetlevel[0,0] == 0)
+{
+	global.planetlevel[0,0] = 1;
+}
 
 if !(instance_exists(planetupgrade)) && !(instance_exists(objectShipUpgradesHub) && !(instance_exists(objectShipOverview)))
 {

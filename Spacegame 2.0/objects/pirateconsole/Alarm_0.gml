@@ -1,4 +1,4 @@
-timeBetweenPirateSpawn = irandom_range(3600, 36000);
+timeBetweenPirateSpawn = irandom_range(3600, 10800);
 global.randomPlanetSpawn = irandom(4);
 	
 if (global.planetlevel[global.randomPlanetSpawn, 5] == 1)

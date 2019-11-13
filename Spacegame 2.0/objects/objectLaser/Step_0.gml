@@ -19,4 +19,15 @@ else if (global.weaponsLevel == 0)
 	global.damage = 15;
 }
 
+if ((objectLaser.image_index >= 2) && (mouse_button == mb_left) && (global.pause == 0))
+{
+	objectLaser.image_index = 2;
+	objectLaser.image_speed = 0;
+}
 
+
+if (mouse_button == mb_none)
+{
+	objectLaser.image_speed = 0.8;
+}
+	

@@ -15,7 +15,7 @@ for (a = 0; a < 10; a++;)
 	for (b = 0; b < 10; b++;)
 	{
 		global.planetlevel[a,b] = 0
-		global.planetlevel[a,0] = 1;
+		global.planetlevel[a,0] = 0;
 		global.planetlevel[a,1] = 100;
 		global.planetlevel[a,6] = 100;
 	}
@@ -43,3 +43,5 @@ global.planetNames[1] = "Kate Epsilon 12";
 global.planetNames[2] = "Ekaterina Omega 7";
 global.planetNames[3] = "Matt Beta 9";
 global.planetNames[4] = "Caroline Delta 4";
+
+global.resourceLost = 0;
