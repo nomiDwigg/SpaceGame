@@ -1,5 +1,5 @@
 draw_self();
-draw_set_color(c_black);
+draw_set_color(c_white);
 draw_set_font(font0);
 draw_text((objectShipOverview.x + 193), (objectShipOverview.y + 5), "Player Overview");
 
