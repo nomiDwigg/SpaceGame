@@ -11,10 +11,12 @@ global.planetlevel[4,1] = 100;
 global.planetlevel[4,6] = 100;
 global.planetlevel[4,0] = 0;
 
-randomise();
-canCollect = false;
 global.planetlevel[4,10] = 5;
 global.planetlevel[4,11] = 2;
-global.giftTimer[4] = -1;
-
 alarm[0] = room_speed;
+
+
+global.planetlevel[4,12] = 0;
+global.planetlevel[4,13] = 0;
+
+canCollect = false;

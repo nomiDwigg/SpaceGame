@@ -10,9 +10,9 @@ for (z = 0; z < 5; z++;)
 	global.income[z] = 0
 }
 
-for (a = 0; a < 12; a++;)
+for (a = 0; a < 14; a++;)
 {
-	for (b = 0; b < 12; b++;)
+	for (b = 0; b < 14; b++;)
 	{
 		global.planetlevel[a,b] = 0
 		global.planetlevel[a,0] = 0;
@@ -45,8 +45,3 @@ global.planetNames[3] = "Matt Beta 9";
 global.planetNames[4] = "Caroline Delta 4";
 
 global.resourceLost = 0;
-
-for (i = 0; i < 5; i++)
-{
-	global.giftTimer[i] = -1;
-}

@@ -3,11 +3,11 @@ draw_set_color(c_white);
 draw_set_font(font0);
 draw_text((objectShipOverview.x + 193), (objectShipOverview.y + 5), "Player Overview");
 
-draw_sprite(spriteResources, 0, (objectShipOverview.x + 90), (objectShipOverview.y + 75));
-draw_sprite(spriteResources, 1, (objectShipOverview.x + 90), (objectShipOverview.y + 175));
-draw_sprite(spriteResources, 2, (objectShipOverview.x + 90), (objectShipOverview.y + 275));
-draw_sprite(spriteResources, 3, (objectShipOverview.x + 90), (objectShipOverview.y + 375));
-draw_sprite(spriteResources, 4, (objectShipOverview.x + 90), (objectShipOverview.y + 475));
+draw_sprite_stretched(spriteResources, 0, (objectShipOverview.x + 90), (objectShipOverview.y + 75), 100, 100);
+draw_sprite_stretched(spriteResources, 1, (objectShipOverview.x + 90), (objectShipOverview.y + 175), 100, 100);
+draw_sprite_stretched(spriteResources, 2, (objectShipOverview.x + 90), (objectShipOverview.y + 275), 100, 100);
+draw_sprite_stretched(spriteResources, 3, (objectShipOverview.x + 90), (objectShipOverview.y + 375), 100, 100);
+draw_sprite_stretched(spriteResources, 4, (objectShipOverview.x + 90), (objectShipOverview.y + 475), 100, 100);
 
 draw_text((objectShipOverview.x + 190), (objectShipOverview.y + 90), string(global.resource[0]));
 draw_text((objectShipOverview.x + 190), (objectShipOverview.y + 190), string(global.resource[1]));

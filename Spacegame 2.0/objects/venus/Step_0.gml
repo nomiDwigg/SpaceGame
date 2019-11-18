@@ -13,6 +13,8 @@ if (global.pause == 0)
 	angle = angle + 0.005;
 	venus.x = sun.x + (cos(angle) * 300);
 	venus.y = sun.y + (sin(angle) * 300);
+	
+	--global.planetlevel[3,12];
 }
 image_angle = lerp(initialAngle, finalAngle, animationProgress);
 
