@@ -46,3 +46,7 @@ global.planetNames[3] = "Matt Beta 9";
 global.planetNames[4] = "Caroline Delta 4";
 
 global.resourceLost = 0;
+
+global.randomPlanetSpawn = 0;
+global.viewEndX = 0;
+global.viewBeginY = 0;

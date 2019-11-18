@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0d1e23ce-31c7-4e06-ac63-1359f3ad546c",
+            "Value": {
+                "id": "ad6a14d9-41a9-43da-87f0-5f321c2bb47b",
+                "resourcePath": "objects\\objectResourceBar\\objectResourceBar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0d957a36-6643-46fe-8975-19d67a7d2cc7",
             "Value": {
                 "id": "45c6bedf-158d-4417-8315-8216ee48f31e",
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "39d9d20e-e54f-4d7f-abda-00de46de798d",
+            "Value": {
+                "id": "c7705402-7181-4d0f-a67b-7435f98967e0",
+                "resourcePath": "sprites\\spriteControlsBackground\\spriteControlsBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "415829e2-237d-456a-897a-aeda689c6e07",
             "Value": {
                 "id": "2932c35b-7273-4c5c-8a7b-8c600fd5b0f0",
@@ -356,6 +372,14 @@
                 "id": "fe27b895-d5f0-451f-9031-c6a16d91fd08",
                 "resourcePath": "sprites\\spritePirateBanner\\spritePirateBanner.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "55053635-d2ab-498d-bc43-e2047e1edbf8",
+            "Value": {
+                "id": "e565d9db-30c3-4282-bb85-15a5be7811e2",
+                "resourcePath": "objects\\objectBack\\objectBack.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -972,6 +996,14 @@
                 "id": "db722c53-2fea-41b4-b60b-a2cbeb7f85f6",
                 "resourcePath": "objects\\objectSustainabilityUpgrades\\objectSustainabilityUpgrades.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f17527e2-beac-4d6a-92c6-505b8015ff3b",
+            "Value": {
+                "id": "50ba8bc7-a65f-4f0b-bbea-7e9bd0108c2d",
+                "resourcePath": "sprites\\spriteResourceBar\\spriteResourceBar.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

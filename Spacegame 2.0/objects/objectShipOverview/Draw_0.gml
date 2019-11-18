@@ -1,31 +1,31 @@
 draw_self();
 draw_set_color(c_white);
 draw_set_font(font0);
-draw_text((objectShipOverview.x + 193), (objectShipOverview.y + 5), "Player Overview");
+draw_text((objectShipOverview.x + 85), (objectShipOverview.y + 65), "Player Overview");
 
-draw_sprite_stretched(spriteResources, 0, (objectShipOverview.x + 90), (objectShipOverview.y + 75), 100, 100);
-draw_sprite_stretched(spriteResources, 1, (objectShipOverview.x + 90), (objectShipOverview.y + 175), 100, 100);
-draw_sprite_stretched(spriteResources, 2, (objectShipOverview.x + 90), (objectShipOverview.y + 275), 100, 100);
-draw_sprite_stretched(spriteResources, 3, (objectShipOverview.x + 90), (objectShipOverview.y + 375), 100, 100);
-draw_sprite_stretched(spriteResources, 4, (objectShipOverview.x + 90), (objectShipOverview.y + 475), 100, 100);
+draw_sprite_stretched(spriteResources, 0, (objectShipOverview.x + 90), (objectShipOverview.y + 125), 100, 100);
+draw_sprite_stretched(spriteResources, 1, (objectShipOverview.x + 90), (objectShipOverview.y + 225), 100, 100);
+draw_sprite_stretched(spriteResources, 2, (objectShipOverview.x + 90), (objectShipOverview.y + 325), 100, 100);
+draw_sprite_stretched(spriteResources, 3, (objectShipOverview.x + 90), (objectShipOverview.y + 425), 100, 100);
+draw_sprite_stretched(spriteResources, 4, (objectShipOverview.x + 90), (objectShipOverview.y + 525), 100, 100);
 
-draw_text((objectShipOverview.x + 190), (objectShipOverview.y + 90), string(global.resource[0]));
-draw_text((objectShipOverview.x + 190), (objectShipOverview.y + 190), string(global.resource[1]));
-draw_text((objectShipOverview.x + 190), (objectShipOverview.y + 290), string(global.resource[2]));
-draw_text((objectShipOverview.x + 190), (objectShipOverview.y + 390), string(global.resource[3]));
-draw_text((objectShipOverview.x + 190), (objectShipOverview.y + 490), string(global.resource[4]));
+draw_text((objectShipOverview.x + 190), (objectShipOverview.y + 140), string(global.resource[0]));
+draw_text((objectShipOverview.x + 190), (objectShipOverview.y + 240), string(global.resource[1]));
+draw_text((objectShipOverview.x + 190), (objectShipOverview.y + 340), string(global.resource[2]));
+draw_text((objectShipOverview.x + 190), (objectShipOverview.y + 440), string(global.resource[3]));
+draw_text((objectShipOverview.x + 190), (objectShipOverview.y + 540), string(global.resource[4]));
 
-draw_sprite(spriteheat, 0, (objectShipOverview.x + 600), (objectShipOverview.y + 75));
-draw_sprite(spritecold, 0, (objectShipOverview.x + 600), (objectShipOverview.y + 175));
-draw_sprite(spriteradiation, 0, (objectShipOverview.x + 600), (objectShipOverview.y + 275));
-draw_sprite(spriteweapons, 0, (objectShipOverview.x + 600), (objectShipOverview.y + 375));
-draw_sprite(spritesustainability, 0, (objectShipOverview.x + 600), (objectShipOverview.y + 475));
+draw_sprite(spriteheat, 0, (objectShipOverview.x + 600), (objectShipOverview.y + 125));
+draw_sprite(spritecold, 0, (objectShipOverview.x + 600), (objectShipOverview.y + 225));
+draw_sprite(spriteradiation, 0, (objectShipOverview.x + 600), (objectShipOverview.y + 325));
+draw_sprite(spriteweapons, 0, (objectShipOverview.x + 600), (objectShipOverview.y + 425));
+draw_sprite(spritesustainability, 0, (objectShipOverview.x + 600), (objectShipOverview.y + 525));
 
-draw_text((objectShipOverview.x + 710), (objectShipOverview.y + 90), string(global.heatResistanceLevel));
-draw_text((objectShipOverview.x + 710), (objectShipOverview.y + 190), string(global.coldResistanceLevel));
-draw_text((objectShipOverview.x + 710), (objectShipOverview.y + 290), string(global.radiationResistanceLevel));
-draw_text((objectShipOverview.x + 710), (objectShipOverview.y + 390), string(global.weaponsLevel));
-draw_text((objectShipOverview.x + 710), (objectShipOverview.y + 490), string(global.sustainabilityLevel));
+draw_text((objectShipOverview.x + 710), (objectShipOverview.y + 140), string(global.heatResistanceLevel));
+draw_text((objectShipOverview.x + 710), (objectShipOverview.y + 240), string(global.coldResistanceLevel));
+draw_text((objectShipOverview.x + 710), (objectShipOverview.y + 340), string(global.radiationResistanceLevel));
+draw_text((objectShipOverview.x + 710), (objectShipOverview.y + 440), string(global.weaponsLevel));
+draw_text((objectShipOverview.x + 710), (objectShipOverview.y + 540), string(global.sustainabilityLevel));
 
 
 //draw_sprite_stretched(spriteShipBase, 1, (objectShipOverview.x - 5), (objectShipOverview.y + 60), 256, 256);

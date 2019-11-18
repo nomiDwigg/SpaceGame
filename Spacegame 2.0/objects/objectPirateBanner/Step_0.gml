@@ -4,8 +4,6 @@
 //global.viewEndX = (view_get_xport(0) + view_get_wport(0));
 //global.viewBeginY = view_get_yport(0);
 
-objectPirateBanner.x = global.viewEndX - 352;
-objectPirateBanner.y = global.viewBeginY + 5;
 baseBannerX = objectPirateBanner.x;
 baseBannerY = objectPirateBanner.y;
 bannerX = baseBannerX + 7;

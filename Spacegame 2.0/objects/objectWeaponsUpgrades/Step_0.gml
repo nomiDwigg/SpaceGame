@@ -1,3 +1,5 @@
+if global.pause = 0
+{
 cursorPosX = mouse_x;
 cursorPosY = mouse_y;
 shipDistance = point_distance(objectShip.x, objectShip.y, cursorPosX, cursorPosY);
@@ -12,4 +14,5 @@ objectWeaponsUpgrades.speed = 4;
 if ((shipDistance < 50) && (shipDistance > -50))
 {
 	objectWeaponsUpgrades.speed = 0;
+}
 }
