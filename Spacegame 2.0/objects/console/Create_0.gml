@@ -45,8 +45,3 @@ global.planetNames[3] = "Matt Beta 9";
 global.planetNames[4] = "Caroline Delta 4";
 
 global.resourceLost = 0;
-
-for (i = 0; i < 5; i++)
-{
-	global.giftTimer[i] = -1;
-}
