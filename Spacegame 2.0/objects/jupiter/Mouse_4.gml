@@ -17,6 +17,12 @@ if !(instance_exists(planetupgrade)) && !(instance_exists(objectShipUpgradesHub)
 	
 	if (canCollect == false)
 	{
-		instance_create_layer((objectShip.x - 256), (objectShip.y - 205), "popups", objectNotEnough);
+		if (global.planetlevel[2,12] <= 0)
+		{
+			randomise();
+			global.planetlevel[2,13] = irandom_range(1, 100);
+			global.resource[2] += global.planetlevel[2,13];
+		}
+		instance_create_layer((planetupgrade.x + 88), (planetupgrade.y + 193), "popups", objectNotEnough);
 	}
 }

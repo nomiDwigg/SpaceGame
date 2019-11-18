@@ -13,6 +13,8 @@ if (global.pause == 0)
 	angle = angle + 0.0005;
 	jupiter.x = sun.x + (cos(angle) * 1400);
 	jupiter.y = sun.y + (sin(angle) * 1400);
+	
+	--global.planetlevel[2,12];
 }
 image_angle = lerp(initialAngle, finalAngle, animationProgress);
 

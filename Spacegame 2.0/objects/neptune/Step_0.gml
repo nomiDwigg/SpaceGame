@@ -13,6 +13,8 @@ if (global.pause == 0)
 	angle = angle + 0.001;
 	neptune.x = sun.x + (cos(angle) * 1700);
 	neptune.y = sun.y + (sin(angle) * 1700);
+	
+	--global.planetlevel[4,12];
 }
 image_angle = lerp(initialAngle, finalAngle, animationProgress);
 
