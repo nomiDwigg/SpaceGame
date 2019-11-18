@@ -1,5 +1,4 @@
 
-draw_self();
 draw_set_font(fontSmall)
 draw_set_color(c_white)
 
