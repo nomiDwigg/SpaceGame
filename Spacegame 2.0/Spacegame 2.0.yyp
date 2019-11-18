@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "13035b5a-ba6e-4801-8307-4adfadf512e4",
+            "Value": {
+                "id": "0f404a90-dc2b-47c4-9293-c3185fbc7f8d",
+                "resourcePath": "views\\13035b5a-ba6e-4801-8307-4adfadf512e4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "13ac74bc-3557-48ce-af0d-1389f13a5dd6",
             "Value": {
                 "id": "f3719999-b2af-45db-801a-f9c04230d80d",
@@ -911,10 +919,10 @@
             }
         },
         {
-            "Key": "df019aed-a280-4a09-80fb-6fa494ea5203",
+            "Key": "e3ed0e30-5294-4ea1-b3f2-3313f9d2f895",
             "Value": {
-                "id": "41f294c6-314e-4bc2-8e3c-e7ae9bb3283f",
-                "resourcePath": "rooms\\Controls\\Controls.yy",
+                "id": "dd7dd26c-c8c4-481e-91c8-ba4d5a8fe313",
+                "resourcePath": "rooms\\ControlsOverview\\ControlsOverview.yy",
                 "resourceType": "GMRoom"
             }
         },
