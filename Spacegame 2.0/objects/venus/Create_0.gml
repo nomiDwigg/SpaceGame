@@ -15,4 +15,8 @@ global.planetlevel[3,9] = 5;
 global.planetlevel[3,11] = 3;
 alarm[0] = room_speed;
 
+
+global.planetlevel[3,12] = 0;
+global.planetlevel[3,13] = 0;
+
 canCollect = false;

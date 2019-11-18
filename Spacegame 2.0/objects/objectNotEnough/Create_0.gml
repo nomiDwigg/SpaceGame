@@ -1,2 +1,2 @@
 
-instance_create_layer((objectNotEnough.x + 448), (objectNotEnough.x + 294), "buttons", objectNotEnoughButton);
+instance_create_layer((objectNotEnough.x + 748), (objectNotEnough.y + 228), "buttons", objectNotEnoughButton);

@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "ad1ab662-b749-469f-a6cc-4e2b958901c6",
+            "Value": {
+                "id": "ba8e4282-d8e8-4f51-8047-ab46f65f4635",
+                "resourcePath": "fonts\\fontTitleMed\\fontTitleMed.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "b240eccf-9699-429f-a2ad-19a66b76bedb",
             "Value": {
                 "id": "a83c7598-65a6-4d72-9c6d-7f0a71e1e23d",

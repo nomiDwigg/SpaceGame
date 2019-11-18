@@ -13,15 +13,12 @@ if (global.pause == 0)
 	angle = angle + 0.0009;
 	obj_mars.x = sun.x + (cos(angle) * 1100);
 	obj_mars.y = sun.y + (sin(angle) * 1100);
+	
+	--global.planetlevel[1,12];
 }
 image_angle = lerp(initialAngle, finalAngle, animationProgress);
 
 if (global.heatResistanceLevel >= global.planetlevel[1,9])
 {
 	canCollect = true;
-}
-
-if (global.planetlevel[1,12] > -1)
-{
-	--global.planetlevel[1,12];
 }
