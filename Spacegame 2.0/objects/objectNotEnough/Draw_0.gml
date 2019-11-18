@@ -58,11 +58,11 @@ draw_text(xPos, yPos, baseMessage1);
 yPos += 38;
 xPos = objectNotEnough.x + ((848 - stringWidth)/2);
 draw_text(xPos, yPos, baseMessage2);
+xPos += bm2W;
 
 
 if (global.planetlevel[global.planet, 9] != 0)
 {
-	xPos += bm2W;
 	draw_text(xPos, yPos, msgLevelHeat);
 	yPos -= 5;
 	xPos += (lvlHW - 47);

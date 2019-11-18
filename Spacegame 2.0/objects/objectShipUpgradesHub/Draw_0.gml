@@ -1,8 +1,8 @@
 draw_set_font(font0);
 draw_self()
 draw_sprite(spriteheat,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +125)  //125
-draw_sprite(spritecold,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +225)  //225
-draw_sprite(spriteradiation,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +325) //325
+draw_sprite(spritecold,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +225) //225
+draw_sprite(spriteradiation,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +325)//325
 draw_sprite(spriteweapons,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +425)  //425
 draw_sprite(spritesustainability,0,objectShipUpgradesHub.x +450,objectShipUpgradesHub.y +525)  //525
 

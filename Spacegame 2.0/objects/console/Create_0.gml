@@ -25,7 +25,8 @@ global.planetlevel[0,0] = 1;
 global.planetlevel[0,1] = 100;
 global.planetlevel[0,6] = 100;
 
-global.pause = 0
+global.pause = 1
+alarm[0] = 10;
 global.asteroidangle = 0
 global.asteroidspeed = 0
 test = 0
@@ -45,3 +46,7 @@ global.planetNames[3] = "Matt Beta 9";
 global.planetNames[4] = "Caroline Delta 4";
 
 global.resourceLost = 0;
+
+global.randomPlanetSpawn = 0;
+global.viewEndX = 0;
+global.viewBeginY = 0;
