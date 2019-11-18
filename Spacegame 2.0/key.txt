@@ -15,6 +15,9 @@ global.planetlevel = array that stores the value of each planet component
 [6] = sheild
 [7] = sheild level
 [8] = is pirate attacking    1 = yes, 0 = no
+[9] = heat level needed to land on planet
+[10] = cold level needed to land on planet
+[11] = radiation level needed to land on planet
 
 
 global.resource = array that holds the ammount of resources the player has
