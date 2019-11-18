@@ -1,7 +1,7 @@
 
 draw_self();
 draw_set_font(fontTitle);
-draw_set_color(c_black);
+draw_set_color(c_white);
 
 baseMessage1 = "In order to land on planet " + global.planetNames[global.planet]; 
 baseMessage2 = "you need to have at least";

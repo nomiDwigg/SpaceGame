@@ -1,7 +1,7 @@
 
 draw_self();
 draw_set_font(fontSmall)
-draw_set_color(c_black)
+draw_set_color(c_white)
 
 draw_sprite_ext(sprite4, 0, arrowX, arrowY, 1, 1, arrowAngle, c_white, 1);
 

@@ -1,7 +1,7 @@
 
 draw_self();
 draw_set_font(fontText)
-draw_set_color(c_black)
+draw_set_color(c_white)
 
 lostText1 = string(global.resourceLost) + "       resources have been taken"; 
 lostText2 = "from your inventory for general";

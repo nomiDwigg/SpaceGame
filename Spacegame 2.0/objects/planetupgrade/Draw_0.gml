@@ -1,6 +1,6 @@
 draw_self()
 draw_set_font(font0)
-draw_set_color(c_black)
+draw_set_color(c_white)
 
 draw_text(planetupgrade.x + 120,planetupgrade.y+345,"Operations:")
 draw_text(planetupgrade.x + 120,planetupgrade.y+450,"Defence:")
