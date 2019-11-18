@@ -34,10 +34,6 @@ upgrade radiation = titanium & carbon & silicon
 upgrade weapons = iron & titanuim & gold
 upgrade sustainability = all
 
-alarm[0] = mars
-alarm[1] = jupiter
-alarm[2] = venus
-alarm[3] = neptune
 
 
 
