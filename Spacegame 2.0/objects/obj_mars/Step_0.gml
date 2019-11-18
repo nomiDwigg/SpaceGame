@@ -20,3 +20,8 @@ if (global.heatResistanceLevel >= global.planetlevel[1,9])
 {
 	canCollect = true;
 }
+
+if (global.planetlevel[1,12] > -1)
+{
+	--global.planetlevel[1,12];
+}

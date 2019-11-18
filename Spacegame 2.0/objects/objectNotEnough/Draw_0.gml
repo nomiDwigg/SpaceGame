@@ -58,21 +58,10 @@ if (global.planetlevel[global.planet, 11] != 0)
 	draw_sprite_stretched(spriteradiation, 0, xPos, yPos, 35, 35);
 }
 
-//if (global.giftTimer[global.planet] == -1)
-//{
-//	randomize();
-//	giftAmount = irandom_range(1, 50);
-//	global.resource[global.planet] += giftAmount;
-//	xPos = objectNotEnough.x;
-//	yPos += 38;
-//	pityMessage1 = "planet " + global.planetNames[global.planet]; 
-//	pityMessage2 =  " has given you a gift of " + string(giftAmount);
-//	draw_text(xPos, yPos, pityMessage1);
-//	yPos += 38;
-//	draw_text(xPos, yPos, pityMessage2);
-//	xPos += (string_width(pityMessage2) + 1);
-//	draw_sprite_stretched(spriteResources, global.planet, xPos, yPos, 35, 35);
-//}
+if (global.planetlevel[global.planet,12] <= -1)
+{
+	
+}
 
 	
 	

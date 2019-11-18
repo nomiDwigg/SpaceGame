@@ -10,4 +10,3 @@ else
 	global.textAlpha = 1;
 }
 
-defencePercentage = ((global.planetlevel[global.planet,1]/global.planetlevel[global.planet,6]) * 100);
